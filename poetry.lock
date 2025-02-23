@@ -138,6 +138,18 @@ files = [
 ]
 
 [[package]]
+name = "fake-useragent"
+version = "2.0.3"
+description = "Up-to-date simple useragent faker with real world database"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "fake_useragent-2.0.3-py3-none-any.whl", hash = "sha256:8bae50abb72c309a5b3ae2f01a0b82426613fd5c4e2a04dca9332399ec44daa1"},
+    {file = "fake_useragent-2.0.3.tar.gz", hash = "sha256:af86a26ef8229efece8fed529b4aeb5b73747d889b60f01cd477b6f301df46e6"},
+]
+
+[[package]]
 name = "idna"
 version = "3.10"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -430,4 +442,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "8e720150fce583ea05a05d9d11ff79329499e94d8be5872d6140c09716e9b5e2"
+content-hash = "9a455b1d880f3e461e844c408e9383a958705a3755407692378f6430f5b50559"
